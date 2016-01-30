@@ -58,7 +58,7 @@ public class Main {
 	}
 
 	private static void test() throws IOException, ClassNotFoundException {
-		FileInputStream streamIn = new FileInputStream("G:\\address.ser");
+		FileInputStream streamIn = new FileInputStream("hashmap.ser");
 		ObjectInputStream objectinputstream = new ObjectInputStream(streamIn);
 		HashMap<String, Integer> hashmap = (HashMap<String, Integer>)objectinputstream.readObject();
 		for(String key : hashmap.keySet()){
