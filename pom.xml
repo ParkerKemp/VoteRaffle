@@ -23,9 +23,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<addClasspath>true</addClasspath>
-							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.spinalcraft.berberos.authserver.Berberos</mainClass>
+							<mainClass>com.spinalcraft.voteraffle.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
