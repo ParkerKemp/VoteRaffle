@@ -43,6 +43,7 @@ public class Main {
 			HashMap<String, Integer> hashmap = new HashMap<String, Integer>();
 			while (rs.next()) {
 				hashmap.put(rs.getString("username"), rs.getInt("c"));
+				System.out.println(rs.getString("username") + ": " + rs.getInt("c"));
 			}
 
 			FileOutputStream fos = new FileOutputStream("hashmap.ser");
